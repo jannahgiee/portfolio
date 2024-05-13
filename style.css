@@ -1252,11 +1252,6 @@ footer {
     }
 
             @media only screen and (max-width: 767px) {
-
-                h1 {
-                    display: none;
-                }
-
                 h3 {
                     text-align: center;
                 }
@@ -1288,10 +1283,6 @@ footer {
                 }
                 .featured-image {
                     padding-top: 10%;
-                }
-
-                .featured-text-card {
-                    margin-top: 20px;
                 }
 
                 .project-box {
