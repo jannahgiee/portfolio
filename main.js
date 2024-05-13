@@ -14,7 +14,7 @@ document.querySelectorAll('.download-cv-btn, .download-cert-btn').forEach(button
                 certificateUrl = 'images/cert1.pdf';
                 break;
             case 'cert2':
-                certificateUrl = 'images/cert 2.pdf';
+                certificateUrl = 'images/cert2.pdf';
                 break;
         }
         pdfFrame.src = certificateUrl;
