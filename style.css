@@ -95,9 +95,12 @@ i {
 }
 
 /* ------- BASE -------- */
-body {
-    background: var(--body-color);
-}
+body{
+            overflow-x: hidden;
+            /* Disable horizontal scrolling */
+            overflow-y: auto;
+            /* Enable vertical scrolling */
+        }
 
 .container {
     width: 100%;
@@ -1255,17 +1258,13 @@ footer {
                 h3 {
                     text-align: center;
                 }
-
-                .skills-header {
-                    margin-left: 20px;
-                }
-
-                .skills-list {
-                    align-content: center;
-                    margin-left: 20px;
-                }
                 .scroll-icon-box {
                     display: none;
+                }
+
+                .skills-box{
+                    margin-right: 60px;
+                    align-items: center;
                 }
 
                 .form-error p {
@@ -1276,10 +1275,12 @@ footer {
                 br {
                     display: inline;
                 }
-
-
-                .certificates-container {
-                    padding-right: 15%;
+                /* Reduce size of certificates on mobile */
+                .cert-info {
+                    padding: 3px;
+                    /* Adjust padding as needed */
+                    font-size: 12px;
+                    /* Adjust font size as needed */
                 }
                 .featured-image {
                     padding-top: 10%;
@@ -1290,11 +1291,6 @@ footer {
 
                 #about.section {
                     padding-top: 30%;
-                }
-
-                .project-box {
-                    width: 100%;
-                    margin-left: 50px;
                 }
 
                 .form-inputs {
@@ -1315,6 +1311,10 @@ footer {
                     padding-right: 10%;
                 }
 
+                .top-header2{
+                    padding-right: 15%;
+                }
+
                 .form-success {
                     margin-top: -7px;
                     padding-left: 120px;
@@ -1331,7 +1331,7 @@ footer {
                     display: grid;
                     grid-template-columns: repeat(1, 6fr);
                     width: 100%;
-                    margin-left: 40px;
+                    margin-left: 20px;
                 }
 
                 .timeline .timeline-item {
