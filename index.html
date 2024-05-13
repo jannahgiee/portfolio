@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Title of the page -->
+    <title>Jannah's Dev | Portfolio</title>
+</head>
+
+<body>
+    <!-- Container for the entire content -->
+    <div class="container">
+        <!-- HEADER -->
+        <nav id="header">
+            <!-- Logo and name -->
+            <div class="nav-logo">
+                <p class="nav-name">JAP'S</p>
+                <span>.</span>
+            </div>
+            <!-- Navigation menu -->
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <!-- List items for navigation -->
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link" onclick="closeMenu()">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link" onclick="closeMenu()">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#experience" class="nav-link" onclick="closeMenu()">Experience</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link" onclick="closeMenu()">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link" onclick="closeMenu()">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Button to download CV -->
+            <div class="nav-button">
+                <button class="btn download-cv-btn" data-certificate="cv"> Download CV <i
+                        class="uil uil-import"></i></button>
+            </div>
+            <!-- Button to toggle navigation menu on mobile -->
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!-- MAIN -->
+        <main class="wrapper">
+            <!-- FEATURED BOX -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Jannah Gilleine Ortiz</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>A seasoned .NET developer proficient in JavaScript, Java, C#, Git, GitLab, MS SQL, Agile methodologies, REST
+                        APIs, Entity Framework, unit testing, integration testing, and CI/CD pipelines, committed to continuous learning and
+                        growth in software development, with a strong grasp of business processes and requirements.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn" id="hireMeBtn">Hire Me</button>
+                        <button class="btn download-cv-btn" data-certificate="cv"> Download CV <i
+                                class="uil uil-import"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/jannah-gilleine-ortiz/" target="_blank">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/__jnnhglln/" target="_blank">
+                                <i class="uil uil-instagram-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="images/me.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+
+                <!-- ABOUT BOX -->
+                <section class="section" id="about">
+                    <div class="top-header">
+                        <h1>My Skills and Certificates</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="about-info">
+                                <h3>About me</h3>
+                                <p>A .NET developer, skilled in different open source programming languages like Javascript, Java, C#,
+                                    version control repository like Github and Gitlab, relational databases like MsSQL, Agile software
+                                    development, REST API Framework, Entity Framework, Unit Testing, Integration Testing, CI/CD Pipeline
+                                    and understands the business process and needs for software development. Invested in continuous
+                                    learning and growth at my chosen field.</p>
+                                <div class="about-btn">
+                                    <button class="btn download-cv-btn" data-certificate="cv"> Download CV <i
+                                            class="uil uil-import"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="skills-box">
+                                <div class="skills-header">
+                                    <h3>Software Engineer</h3>
+                                </div>
+                                <div class="skills-list">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>Node JS</span>
+                                    <span>JavaScript</span>
+                                    <span>Java</span>
+                                    <span>C#</span>
+                                    <span>.NET Core framework</span>
+                                    <span>SQL Database</span>
+                                    <span>Azure</span>
+                                    <span>Docker</span>
+                                    <span>Git</span>
+                                    <span>GitHub</span>
+                                    <span>Gitlab</span>
+                                    <span>Postman API</span>
+                                    <span>Jira</span>
+                                </div>
+                                <div class="certificates-container">
+                                    <div class="cert-info">
+                                        <div class="btn">
+                                            <p>Entity Framework - .NET Core 7</p>
+                                            <button class="btn download-cert-btn white-button" data-certificate="cert1">Certificate <i
+                                                    class="uil uil-import"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="cert-info">
+                                        <div class="btn">
+                                            <p>GitLab : CI Pipelines, CI/CD & DevOps</p>
+                                            <button class="btn download-cert-btn white-button" data-certificate="cert2">Certificate <i
+                                                    class="uil uil-import"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            <!-- EXPERIENCE BOX -->
+            <section class="section" id="experience">
+                <div class="top-header2">
+                    <h4 class="stat-title">Work Experiences</h4>
+                    <span>My career is focused on Web development</span>
+                </div>
+                <div class="top-header">
+                    <div class="timeline">
+                        <div class="experience-info">
+                            <div class="tl-icon">
+                                <img src="images/doehle.png" alt="Icon" class="rounded-icon">
+                                <p class="tl-duration">May 2021 - Present</p>
+                                <h5>BACKEND DEVELOPER</h5>
+                                <h5><span>Döhle Shipmanagement Phils. Corp.</span></h5>
+                            </div>
+                            <p>Developing C# .NET Core programs using REST APIs and Azure Active Directory authentication.
+                                Proficient in Docker, GitLab
+                                CI/CD, Postman, Azure deployment, SendGrid integration, Entity Framework Code First, XUnit tests,
+                                MsSQL, and Scrum.
+                                Contributed to projects like Seafarer Application Website V2 and NAVIDO 2.0 ERP System, covering bug
+                                fixes, module
+                                development, and integration.</p>
+                        </div>
+                        <div class="experience-info">
+                            <div class="tl-icon">
+                                <img src="images/realpage.jpg" alt="Icon" class="rounded-icon">
+                                <p class="tl-duration">April 2019 - May 2021</p>
+                                <h5>DEVELOPER ANALYST</h5>
+                                <h5><span>Real Page Inc.</span></h5>
+                            </div>
+                            <p>Proficient in enhancing user experience and developing dynamic functionalities for a leasing website,
+                                utilizing XML,
+                                Java, and JavaScript, while creating a smart, dynamic product for Real Estate, ensuring smooth
+                                processes and utilizing
+                                GitHub for repository management, along with addressing database issues and maintaining ISO format
+                                process documents.</p>
+                        </div>
+                        <div class="experience-info">
+                            <div class="tl-icon">
+                                <img src="images/schneider.jpg" alt="Icon" class="rounded-icon">
+                                <p class="tl-duration">Dec 2018 - Mar 2019</p>
+                                <h5>WEB DEVELOPER INTERN</h5>
+                                <h5><span>Schneider Electric</span></h5>
+                            </div>
+                            <p>Collaborating closely with the development team, I actively contribute to enhancing user interfaces, seamlessly
+                            integrating REST APIs, consistently applying C# programming language and object-oriented programming (OOP) principles,
+                            proficiently utilizing Git for version control, and ensuring smooth and efficient interaction with SQL databases.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- PROJECT BOX -->
+            <section class="section" id="projects">
+                <div class="top-header2">
+                    <h4 class="stat-title">Projects</h4>
+                    <span>The following projects showcase my skills and experience through real-world examples of my
+                        work,
+                        technologies, and manage projects effectively.</span>
+                </div>
+                <div class="top-header">
+                    <div class="project-container">
+                        <a href="" class="project-box" target="_blank">
+                            <i class="uil uil-person"></i>
+                            <h3>Join Doehle Application</h3>
+                            <label>MongoDB, Express JS, React, Node JS </label>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- CONTACT BOX -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: jortiz202012@gmail.com </p>
+                            <p><i class="uil uil-map"></i> Address: San Pedro, Laguna Philippines</p>
+                            <p><i class="uil uil-phone"></i> Phone: +63 945 207 8677</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" id="name" placeholder="Name*">
+                                <input type="email" class="input-field" id="email" placeholder="Email*">
+                            </div>
+                            <div class="form-inputs">
+                                <input type="text" class="input-fields" id="subjects" placeholder="Subject*">
+                            </div>
+                            <div class="text-area">
+                                <textarea id="message" placeholder="Message*"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <!-- Call the sendEmail() function when the button is clicked -->
+                                <button class="btn" onclick="sendEmail(event)" id="send-button">Send <i
+                                        class="uil uil-message"></i></button>
+                            </div>
+                            <div class="form-error" id="form-error"></div>
+                            <div class="form-success" id="form-success"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer>
+                <div class="top-footer">
+                    <p>Jannah Gilleine Ortiz.</p>
+                </div>
+                <div class="footer-social-icons">
+                    <div class="icon"><a href="https://github.com/Japheth0214/" target=_blank><i
+                                class="uil uil-github-alt"></i></a></div>
+                    <div class="icon"><a href="https://www.linkedin.com/in/japheth-james-arcilla-5b1953200/"
+                            target=_blank><i class="uil uil-linkedin-alt"></i></a></div>
+                </div>
+                <div class="bottom-footer">
+                    <p> <a href="#home" style="text-decoration: none;"></a>( Made with Vercel )
+
+                    </p>
+                </div>
+            </footer>
+        </main>
+
+        <!-- PDF Modal Start -->
+        <div class="modal fade animated-modal" id="pdfModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">PDF Viewer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="iframeContainer">
+                            <iframe id="pdfFrame" src="" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PDF Modal End -->
+
+
+
+
+        <!-- JavaScript imports -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="main.js"></script> <!-- Assuming this is your custom JavaScript file -->
+
+</body>
+
+</html>
