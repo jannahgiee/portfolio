@@ -1284,6 +1284,13 @@ footer {
                 .featured-image {
                     padding-top: 10%;
                 }
+                 .featured-text {
+                    padding-top: 50%;
+                }
+
+                #about.section {
+                    padding-top: 20%;
+                }
 
                 .project-box {
                     width: 100%;
