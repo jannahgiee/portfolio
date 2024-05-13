@@ -1238,92 +1238,146 @@ footer {
 
 }
 
-@media only screen and (max-width: 768.98px) {
-
-    .form-error p {
-        margin-top: 0px;
+/* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+@media only screen and (max-width: 1024px) {
+    .featured-text {
+        padding: 0;
     }
 
-
-    br {
-        display: inline;
+        .image,
+        .image img {
+            width: 320px;
+            height: 320px;
+        }
     }
 
-    .featured-name {
-        font-size: 40px;
-    }
+            @media only screen and (max-width: 768.98px) {
+                #about.section {
+                    margin-top: 80%;
+                }
 
-    .project-box {
-        width: 100%;
-        margin-left: 50px;
-    }
+                h1 {
+                    display: none;
+                }
 
-    .form-inputs {
-        flex-direction: column;
-        margin-left: 10px;
-    }
+                h3 {
+                    text-align: center;
+                }
 
-    .input-field {
-        width: 100%;
-    }
+               
 
-    .text-area {
-        margin-left: 10px;
-        width: 100%;
-    }
+                .skills-header {
+                    margin-left: 20px;
+                }
 
-    .form-success {
-        margin-top: -7px;
-        padding-left: 120px;
-    }
+                .skills-list {
+                    display:contents;
+                }
 
-    .form-error {
-        /* Font size for error messages */
-        margin-top: -58px;
-        /* Margin to separate error messages from other elements */
-        padding-left: -120px;
-    }
+                .scroll-icon-box {
+                    display: none;
+                }
 
-    .timeline {
-        display: grid;
-        grid-template-columns: repeat(1, 6fr);
-        width: 100%;
-        margin-left: 40px;
-    }
-
-    .timeline .timeline-item {
-        position: relative;
-        padding-left: 3rem;
-        border-left: 1px solid var(--color-grey-5);
-        align-items: center;
-    }
-
-    .top-header2 {
-        margin-left: 60px;
-    }
-
-    .contact-info {
-        margin-left: 20px;
-    }
-
-    .col {
-        margin-left: 50px;
-    }
-
-}
+                .form-error p {
+                    margin-top:0px;
+                }
 
 
+                br {
+                    display: inline;
+                }
 
-@keyframes rotateUpsideDown {
-    0% {
-        transform: rotate(0deg);
-    }
+                .featured-image {
+                    padding-top: 20%;
+                }
 
-    100% {
-        transform: rotate(180deg);
-    }
-}
+                .featured-text {
+                    margin-top: 100px;
+                    font-size: 40px;
+                }
+                .featured-text-card {
+                    padding-top:  80%;
+                }
 
-.scroll-icon-box .scroll-btn:hover i {
-    animation: rotateUpsideDown 0.5s forwards;
-}
+                .project-box {
+                    width: 100%;
+                    margin-left: 50px;
+                }
+
+                .form-inputs {
+                    flex-direction: column;
+                    margin-left: 10px;
+                }
+
+                .input-field {
+                    width: 100%;
+                }
+
+                .text-area {
+                    margin-left: 10px;
+                    width: 100%;
+                }
+
+                #experience {
+                    padding-right: 10%;
+                }
+
+                .form-success {
+                    margin-top: -7px;
+                    padding-left: 120px;
+                }
+
+                .form-error {
+                    /* Font size for error messages */
+                    margin-top: -58px;
+                    /* Margin to separate error messages from other elements */
+                    padding-left: -120px;
+                }
+
+                .timeline {
+                    display: grid;
+                    grid-template-columns: repeat(1, 6fr);
+                    width: 100%;
+                    margin-left: 40px;
+                }
+
+                .timeline .timeline-item {
+                    position: relative;
+                    padding-left: 3rem;
+                    border-left: 1px solid var(--color-grey-5);
+                    align-items: center;
+                }
+
+                .top-header2 {
+                    margin-left: 60px;
+                }
+
+                .contact-info {
+                    margin-left: 20px;
+                }
+
+                .skills-box {
+                    margin-left: 60px;
+                }
+
+                .nav-menu-btn {
+                    padding-left: 50px;
+                }
+
+             }
+
+
+
+            @keyframes rotateUpsideDown {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(180deg);
+                }
+            }
+
+            .scroll-icon-box .scroll-btn:hover i {
+                animation: rotateUpsideDown 0.5s forwards;
+            }
